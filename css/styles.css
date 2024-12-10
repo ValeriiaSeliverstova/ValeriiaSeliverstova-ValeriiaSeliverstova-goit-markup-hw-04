@@ -48,6 +48,8 @@ svg {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -94,6 +96,7 @@ svg {
   text-decoration: none;
   padding: 24px 0;
   position: relative;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item.active {
   color: #404bbf;
@@ -144,6 +147,7 @@ svg {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:hover,
