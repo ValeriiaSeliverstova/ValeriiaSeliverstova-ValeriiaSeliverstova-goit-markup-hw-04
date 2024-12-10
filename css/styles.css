@@ -277,6 +277,7 @@ svg {
 
 .section-services .list-item .section-heading-icon {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 64px;
   padding: 24px;
@@ -345,7 +346,7 @@ svg {
   width: calc((100% - 72px) / 4);
 }
 .section-team .section-container {
-  padding: 17px 0;
+  padding: 32px 0;
 }
 
 .section-team .section-image {
@@ -364,8 +365,10 @@ svg {
 }
 
 .section-team .section-social-icon-list {
+  list-style: none;
   padding-top: 12px;
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .section-team .section-social-link {
