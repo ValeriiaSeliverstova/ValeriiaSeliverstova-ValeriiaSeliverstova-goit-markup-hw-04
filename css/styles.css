@@ -530,7 +530,7 @@ body {
 .footer .section-social-icon-list .social-icon-item {
   width: 40px;
   height: 40px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .section-social-link {
@@ -547,5 +547,3 @@ body {
 .footer .section-social-link:focus {
   background-color: #31d0aa;
 }
-
-.footer;
